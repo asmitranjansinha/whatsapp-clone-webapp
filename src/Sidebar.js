@@ -1,8 +1,9 @@
-import { ChatRounded, DonutLarge, Filter, Filter1, GroupRounded, MoreVert, Search, StackedBarChart } from '@mui/icons-material'
+import { ChatRounded, DonutLarge, Filter, GroupRounded, MoreVert, Search } from '@mui/icons-material'
 import { Avatar, IconButton } from '@mui/material'
 import { grey } from '@mui/material/colors'
 import React from 'react'
 import "./Sidebar.css"
+import SidebarChat from './SidebarChat'
 
 function Sidebar() {
   return (
@@ -29,8 +30,34 @@ function Sidebar() {
 
         </div>
 
-        <IconButton><Filter style={{color: grey[400], fontSize: 18}}/></IconButton>
+        <IconButton><Filter style={{ color: grey[400], fontSize: 18 }} /></IconButton>
 
+      </div>
+
+      <div className="sidebar__chats">
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
       </div>
 
     </div>

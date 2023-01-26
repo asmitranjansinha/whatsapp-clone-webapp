@@ -32,11 +32,11 @@
     align-items: center;
     justify-content: space-between;
     background-color: #111b21;
-    border-right: 1px solid #2e3c43;
-    padding-top: 5px;
+    border-right: 0.8px solid #2e3c43;
+    padding-top: 7px;
     padding-left: 10px;
     padding-right: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 7px;
 }
 
 .sidebar__searchContainer {
@@ -49,11 +49,21 @@
 }
 
 .sidebar__searchContainer>input {
-    border: none;
     height: 80%;
     width: 80%;
     font-size: 14px;
     color: #d1d7db;
     margin-left: 20px;
     background-color: #1f2c33;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.sidebar__chats {
+    padding-right: 7px;
+    flex: 1;
+    overflow: scroll;
+    border-right: 0.8px solid #2e3c43;
 }
